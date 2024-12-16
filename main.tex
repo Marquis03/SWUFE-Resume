@@ -1,0 +1,111 @@
+\PassOptionsToPackage{quiet}{fontspec}
+\documentclass{resume}
+\usetikzlibrary{calc}
+
+\linespread{1.32}  % 行间距
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 左上角学校 Title
+\begin{tikzpicture}[remember picture, overlay]\node[anchor = north west]at($(current page.north west)+(0.1in,-0.1in)$) 
+{\includegraphics[height=1.5cm]{img/西南财经大学banner.pdf}};
+\end{tikzpicture}
+% 照片
+\begin{tikzpicture}[remember picture, overlay]%
+\node[anchor = north east] at ($(current page.north east)+(-0.4in,-0.3in)$) 
+{\includegraphics[height=3.5cm]{img/黑柯基.jpg}};
+\end{tikzpicture}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{
+\centering
+{\huge 小嗷犬} \\
+\colorIcon{mainColor}{\faMars} 男 | \colorIcon{mainColor}{\faBirthdayCake} 3岁 | \colorIcon{mainColor}{\faStar} 汪汪队队员 \\
+\colorIcon{mainColor}{\faQq} 188****888 | \colorIcon{mainColor}{\faWeixin} AoDog8888 \\
+\colorIcon{mainColor}{\faPhone*} 188-****-8888 | \colorIcon{mainColor}{\faEnvelope} \href{mailto:aodog@dogmail.com}{aodog@dogmail.com} \\
+\colorIcon{mainColor}{\faHome} \href{https://marquis.eu.org}{marquis.eu.org}\par
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section[教育背景]{\colorIcon{mainColor}{\faGraduationCap} \textbf{\color{mainColor}教育背景}}
+
+\subsection[西南财经大学]{\textbf{西南财经大学}\ \ \textcolor{mainColor}{\textbf{211}} \quad 本科 \quad 智能金融(人犬合办) \hfill {\small 2021 - 2025}}
+\begin{itemize}
+    \item \textbf{GPA}：8.8/5.0 \quad \textbf{综合排名}：8/88 \quad \textbf{外语水平}：DOG-8
+    \item \textbf{相关课程}：大学生心理健康与犬生发展 (88)、狗狗币与去中心化金融 (88)、小型犬毛发护理 (88)
+    \item \textbf{荣誉奖项}：学业奖学金、社会实践奖学金、
+劳动素养与技能奖学金、优秀学生干部、三好学生
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section[竞赛经历]{\colorIcon{mainColor}{\faTrophy} \textbf{\color{mainColor}竞赛经历}}
+
+
+\subsection[AFAC2023-金融数据理解-赛题3 宠物年龄识别]{\href{https://tianchi.aliyun.com/competition/entrance/532092}{\textbf{AFAC2023-金融数据理解-赛题3 宠物年龄识别}} \quad 排名70/771 \hfill {\small 2023.08}}
+\begin{itemize}
+    \item \textbf{举办方}：\includegraphics[align=c, height=1.2em]{img/AFAC2023-金融数据理解-赛题3 宠物年龄识别举办方.png}
+    \item \textbf{赛题描述}：随着我国居民收入提升和养宠人群不断扩大，宠物消费相关的商品和服务类型不断丰富，国内宠物行业规模快速扩张。2017-2022年我国宠物市场高速发展，宠物市场规模已超千亿规模，随着更多的人加入养宠大军，以及养宠理念的不断升级，未来宠物市场将持续蓬勃发展。宠物医疗保险则是宠物经济中重要的组成部分，其保费规模也逐年攀升。随着宠物平均年龄的逐渐上升，宠物的出险率也在爬升。当务之急，需要在用户投保时，识别出投保宠物的实际年龄，有效拦截高龄宠物风险，将赔付率维持在健康水位。本次任务希望参赛者基于计算机视觉技术，通过宠物正脸图片，预估其年龄值。
+    \item \textbf{比赛方案}：\lstinline|~呜嗷呜~呜啊呜嗷啊~啊~啊~~啊啊~啊嗷啊呜~~~呜~嗷~呜呜嗷呜嗷嗷嗷嗷呜啊呜呜啊呜嗷呜呜啊啊呜呜啊嗷啊呜嗷嗷嗷嗷~嗷~呜呜呜嗷~嗷嗷嗷呜呜嗷嗷嗷呜嗷呜呜啊呜啊嗷啊嗷啊呜~呜嗷~啊~~嗷~啊啊~呜呜嗷~~嗷嗷~啊嗷嗷~~啊~呜~~啊呜呜呜呜嗷嗷呜嗷~~呜~呜呜呜嗷呜~啊嗷啊啊呜~呜~~呜呜~呜啊嗷~呜呜呜啊|
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section[实习经历]{\colorIcon{mainColor}{\faBriefcase} \textbf{\color{mainColor}实习经历}}
+
+\subsection[西南财经大学后勤服务总公司]{\href{https://houqin.swufe.edu.cn/}{\includegraphics[align=c, height=1.2em]{img/swufe-logo.pdf} \textbf{西南财经大学后勤服务总公司}} \quad 五谷堂食品安全监督员 \hfill {\small 2023.09 - 2024.09}}
+\begin{itemize}
+    \item \lstinline|~呜嗷呜呜嗷嗷嗷~啊啊啊呜~啊~啊啊呜~嗷呜~啊啊呜嗷嗷呜嗷呜呜呜嗷啊呜嗷~~嗷啊嗷~啊~嗷呜~~呜啊啊|
+\end{itemize}
+
+\subsection[北京京东世纪贸易有限公司]{\href{https://zhaopin.jd.com/}{\includegraphics[align=c, height=1.2em]{img/京东.pdf} \textbf{北京京东世纪贸易有限公司}} \quad 快递员 \hfill {\small 2022.09 - 2023.09}}
+\begin{itemize}
+    \item \lstinline|~呜嗷呜嗷~~~嗷~~啊嗷嗷~呜~嗷~嗷嗷啊呜啊呜啊嗷嗷啊嗷呜嗷嗷啊~呜呜呜~~~嗷呜啊嗷嗷~呜~嗷~嗷呜~啊啊嗷嗷~嗷呜嗷呜~~呜啊~~嗷嗷嗷~嗷啊啊|
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section[项目经历]{\colorIcon{mainColor}{\faFolder} \textbf{\color{mainColor}项目经历}}
+
+\subsection[基于ResNet-18的猫狗图像分类]{\href{https://www.kaggle.com/code/marquis03/cats-and-dogs-classification-using-resnet-18}{\textbf{基于ResNet-18的猫狗图像分类}} \quad 主要贡献者 \hfill {\small 2023.10}}
+\begin{itemize}
+    \item \lstinline|~呜嗷呜~嗷呜~呜~嗷啊呜呜啊呜呜嗷啊嗷呜嗷呜嗷呜呜嗷嗷~嗷~~嗷~呜呜呜呜呜嗷啊嗷嗷啊~~啊呜呜呜~~~嗷嗷啊啊呜啊嗷啊啊~呜~~~呜~啊呜嗷啊呜嗷啊|
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section[校园经历]{\colorIcon{mainColor}{\faUsers} \textbf{\color{mainColor}校园经历}}
+
+\subsection[汪汪队 核心成员]{\textbf{西南财经大学} \textbf{计算机与人工智能学院} \textbf{汪汪队} \quad 核心成员 \hfill {\small 2021.09 - 至今}}
+
+\begin{enumerate}
+    \item \lstinline|~呜嗷呜啊嗷~嗷~呜嗷啊啊啊~啊嗷呜啊~呜呜呜啊啊啊啊嗷呜嗷啊~呜呜啊呜~嗷~~嗷~~啊|
+    \item \lstinline|~呜嗷呜~~~~啊嗷啊啊嗷嗷~呜~~呜~啊呜啊~啊啊呜嗷啊啊呜~~嗷嗷~~嗷嗷嗷啊~~啊呜嗷嗷啊~嗷~~呜呜嗷~~呜~嗷嗷啊~~嗷呜嗷呜啊~呜呜啊呜呜啊|
+\end{enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section[技能熟练度]{\colorIcon{mainColor}{\faTools} \textbf{\color{mainColor}技能熟练度}}
+
+\begin{minipage}{0.28\textwidth}
+\skill{Python}{5} \vspace{-2pt}
+\skill{C/C++}{5}
+\end{minipage}
+\hfill
+\begin{minipage}{0.28\textwidth}
+\skill{Pandas}{5} \vspace{-2pt}
+\skill{Sklearn}{5}
+\end{minipage}
+\hfill
+\begin{minipage}{0.28\textwidth}
+\skill{Matplotlib}{5} \vspace{-2pt}
+\skill{Pytorch}{4}
+\end{minipage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section[其他]{\colorIcon{mainColor}{\faInfo} \textbf{\color{mainColor}其他}}
+
+\subsection[CSDN 人工智能领域优质创作者]{\href{https://marquis.blog.csdn.net/}{\textbf{CSDN} \quad 人工智能领域优质创作者} \hfill {\small 2022.08 - 至今}}
+
+\begin{itemize}
+    \item 发布博客 \textbf{200} 余篇，总访问量达 \textbf{50} 万，收获粉丝 \textbf{3} 万余位
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
